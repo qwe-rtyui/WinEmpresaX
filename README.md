@@ -6,22 +6,10 @@ Uma aplicação desktop desenvolvida em **C# com Windows Forms** para a gestão 
 
 ## 📋 Funcionalidades
 - Listar produtos no banco de dados.
-- Adicionar novos produtos.
-- Editar produtos existentes.
-- Remover produtos.
+- Adicionar novos (clientes, produtos, vendas).
+- Editar (clientes, produtos) existentes.
+- Remover (clientes, produtos).
 - Interface moderna e estilizada com funcionalidades úteis como validação de campos.
-
----
-
-<h2>📸 Capturas de Tela</h2>
-
-<div style="display:flex;">
-    <img src="https://github.com/qwe-rtyui/WinEmpresaX/blob/main/screenshot/Clist.png" style="heigth:200px; width:250px">
-    <img src="https://github.com/qwe-rtyui/WinEmpresaX/blob/main/screenshot/Vadd.png" style="heigth:200px; width:250px">    
-    <img src="https://github.com/qwe-rtyui/WinEmpresaX/blob/main/screenshot/Rvendas" style="heigth:200px; width:250px">
-</div>
-
----
 
 ## 🛠️ Tecnologias Utilizadas
 - **C#** (WinForms)
@@ -80,11 +68,48 @@ Execute a aplicação diretamente no Visual Studio ou no terminal:
 - descricao (text): Descrição do produto.
 - preco (decimal): Preço do produto.
 - estoque (int): Quantidade disponível em estoque.
-### Procedures
+### Procedures & Functions
 - sp_list_product: Retorna todos os produtos cadastrados.
 - sp_insert_product: Insere um novo produto.
 - sp_update_product: Atualiza informações de um produto existente.
 - sp_remove_product: Remove um produto pelo ID.
+  
+- sp_list_client: Retorna todos os clientes cadastrados.
+- sp_insert_client: Insere um novo client.
+- sp_update_client: Atualiza informações de um client existente.
+- sp_remove_client: Remove um client pelo ID, Etc.
+
+---
+
+<h2>📸 Capturas de Tela</h2>
+
+<div style="display:flex;">
+    <img src="https://github.com/qwe-rtyui/WinEmpresaX/blob/main/img/Clist.png" style="heigth:500px; width:550px">
+
+- Lista dos clientes adicionados.
+- Botões p/ (Adicionar, Editar e Remover) clientes.
+- Interface moderna e estilizada com funcionalidades úteis como validação de campos.
+</div>
+
+--
+
+<div style="display:flex;">    
+    <img src="https://github.com/qwe-rtyui/WinEmpresaX/blob/main/img/Vadd.png" style="heigth:500px; width:550px"> 
+    
+- Selecionar cliente para realizar uma venda.
+- Selecionar o produto, a quantida e adicionar na lista de venda.
+</div>
+
+--
+
+<div style="display:flex;">  
+    <img src="https://github.com/qwe-rtyui/WinEmpresaX/blob/main/img/Rvendas.png" style="heigth:500px; width:550px">
+        
+- Relatório de (vendas, estoque e cliente.
+- Selecionar a venda para saber mais detalhe da mesma.
+</div>
+
+--
 
 ## 👨‍💻 Contribuição
 Sinta-se à vontade para abrir Issues ou enviar Pull Requests para melhorias ou correções. 💡
