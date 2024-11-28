@@ -97,7 +97,7 @@ Execute a aplicação diretamente no Visual Studio ou no terminal:
     <img src="https://github.com/qwe-rtyui/WinEmpresaX/blob/main/img/Vadd.png" style="heigth:500px; width:550px"> 
     
 - Selecionar cliente para realizar uma venda.
-- Selecionar o produto, a quantida e adicionar na lista de venda.
+- Selecionar o produto, a quantidade e adicionar na lista de venda.
 </div>
 
 --
@@ -105,7 +105,7 @@ Execute a aplicação diretamente no Visual Studio ou no terminal:
 <div style="display:flex;">  
     <img src="https://github.com/qwe-rtyui/WinEmpresaX/blob/main/img/Rvendas.png" style="heigth:500px; width:550px">
         
-- Relatório de (vendas, estoque e cliente.
+- Relatório de (vendas, estoque e cliente).
 - Selecionar a venda para saber mais detalhe da mesma.
 </div>
 
