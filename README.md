@@ -13,6 +13,16 @@ Uma aplicação desktop desenvolvida em **C# com Windows Forms** para a gestão 
 
 ---
 
+<h2>📸 Capturas de Tela</h2>
+
+<div style="display:flex;">
+    <img src="https://github.com/qwe-rtyui/WinEmpresaX/blob/main/screenshot/Clist.png" style="heigth:200px; width:250px">
+    <img src="https://github.com/qwe-rtyui/WinEmpresaX/blob/main/screenshot/Vadd.png" style="heigth:200px; width:250px">    
+    <img src="https://github.com/qwe-rtyui/WinEmpresaX/blob/main/screenshot/Rvendas" style="heigth:200px; width:250px">
+</div>
+
+---
+
 ## 🛠️ Tecnologias Utilizadas
 - **C#** (WinForms)
 - **PostgreSQL** (Banco de Dados)
