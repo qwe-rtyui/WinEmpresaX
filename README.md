@@ -36,7 +36,7 @@ Uma aplicação desktop desenvolvida em **C# com Windows Forms** para a gestão 
     git clone https://github.com/seu-usuario/winforms-kyoto-desk.git
     cd winforms-kyoto-desk
 2. Abra o projeto em seu editor de preferência.
-3. Atualize a string de conexão no arquivo UserControlProduct.cs (variável _connectionString) com suas credenciais do PostgreSQL:
+3. Atualize a string de conexão no arquivo DatabaseConnection.cs (variável _connectionString) com suas credenciais do PostgreSQL:
 
     ```
     private string _connectionString = "Host=localhost;Port=5432;Username=seu-usuario;Password=sua-senha;Database=KyotoDesk";
