@@ -10,6 +10,7 @@ namespace WinFormsKyotoDesk.UI
     //Manipular Objetos na tela
     public static class ObjectControl
     {
+
         public static void ButtomDisabled(Button button, params Button[] notEnable)
         {
             button.Enabled=true;

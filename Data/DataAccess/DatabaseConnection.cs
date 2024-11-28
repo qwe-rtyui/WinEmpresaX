@@ -11,9 +11,11 @@ namespace WinFormsKyotoDesk.Data.DataAccess
 {
     internal class DatabaseConnection
     {
+        private static string _connectionString = "Host=localhost;Port=5432;Username=;Password=;Database=KyotoDesk";
         public static string GetConnectionString()
         {
-            return "Host=localhost;Port=5432;Username=postgres;Password=Qwertyui;Database=KyotoDesk";
+            
+            return _connectionString;
         }
     }
 }
